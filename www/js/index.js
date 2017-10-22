@@ -1,4 +1,4 @@
-/*function scanBarcode(){
+function scanBarcode(){
 	
 	cordova.plugins.barcodeScanner.scan(
       function (result) {
@@ -24,7 +24,7 @@
           disableSuccessBeep: false // iOS
       }
    );
-}*/
+}
 
 var app = {
     // Application Constructor
