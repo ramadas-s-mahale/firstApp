@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="96" y="32" width="673" height="497" text="Browser&#xA;http://..." measuredWidth="673" measuredHeight="497">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="120" y="94" measuredWidth="625" measuredHeight="411">
+    <widgets xsi:type="model:WidgetGroup" id="25" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:LinkBar" id="5" x="144" y="10" text="Home,Shops,users,sellers" measuredWidth="191" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="36" height="23" text="Home"/>
+        <items x="54" y="0" width="35" height="23" text="Shops"/>
+        <items x="107" y="0" width="30" height="23" text="users"/>
+        <items x="155" y="0" width="35" height="23" text="sellers"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="6" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="7" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="8" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+      <widgets xsi:type="model:SearchField" id="9" x="376" y="10" text="Search for user or seller" measuredWidth="153" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="20" x="31" y="290" measuredWidth="385" measuredHeight="121">
+      <widgets xsi:type="model:Table" id="14" width="385" height="121" text="Seller,Mail\nid,=. ph_no,                                    &#xA;&#xA;Pending_seller_name, mail,123456&#xA;Pending_seller2, mail2,654321" measuredWidth="385" measuredHeight="121" alternative="#eee">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="15" x="257" y="56" text="accept" measuredWidth="55" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="16" x="321" y="56" text="reject" measuredWidth="49" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="17" x="257" y="88" text="accept" measuredWidth="55" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="18" x="321" y="88" text="reject" measuredWidth="49" measuredHeight="25">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Label" id="19" x="31" y="234" text="Pending requests...." measuredWidth="171" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="21" x="183" y="90" width="194" text="Name:, Username" measuredWidth="194" measuredHeight="27" selection="0">
+      <font/>
+      <items x="0" y="0" width="82" height="27" text="Name:"/>
+      <items x="82" y="0" width="112" height="27" text="Username"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="22" x="183" y="138" width="194" text="reg_mail:, email_id" measuredWidth="194" measuredHeight="27" selection="0">
+      <font/>
+      <items x="0" y="0" width="98" height="27" text="reg_mail:"/>
+      <items x="98" y="0" width="96" height="27" text="email_id"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="23" x="208" y="194" text="Change Password" measuredWidth="114" measuredHeight="25" background="#00f">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="41" x="648" y="210" width="102" height="67" measuredWidth="102" measuredHeight="67"/>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="96" y="32" measuredWidth="673" measuredHeight="497">
+    <widgets xsi:type="model:Browser" id="1" width="673" height="497" text="Browser&#xA;http://..." measuredWidth="673" measuredHeight="497">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="2" x="24" y="62" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:Icon" id="3" x="449" measuredWidth="32" measuredHeight="32" icon="currency-dollar (large)"/>
+      <widgets xsi:type="model:WidgetGroup" id="4" measuredWidth="625" measuredHeight="59">
+        <widgets xsi:type="model:LinkBar" id="5" x="144" y="10" text="Profile,Shop" measuredWidth="86" measuredHeight="23">
+          <font/>
+          <items x="0" y="0" width="37" height="23" text="Profile"/>
+          <items x="55" y="0" width="30" height="23" text="Shop"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="6" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="7" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Icon" id="8" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+        <widgets xsi:type="model:SearchField" id="9" x="280" y="10" text="Search for product" measuredWidth="129" measuredHeight="24">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Icon" id="10" x="512" measuredWidth="32" measuredHeight="32" icon="shopping-cart (large)"/>
+        <widgets xsi:type="model:Label" id="11" x="449" y="27" text="wallet" measuredWidth="37" measuredHeight="23">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="12" x="509" y="33" text="cart" measuredWidth="26" measuredHeight="23">
+          <font/>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="160" y="152" measuredWidth="417" measuredHeight="100">
+    <widgets xsi:type="model:Image" id="14" text="ordered item_image" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:VButtonBar" id="15" x="144" width="273" height="100" text="Product name&#xA;product price&#xA;qty, &#xA;Total&#xA;" measuredWidth="273" measuredHeight="100" selection="0">
+      <font/>
+      <items x="0" y="0" width="273" height="28" text="Product name"/>
+      <items x="0" y="28" width="273" height="27" text="product price"/>
+      <items x="0" y="55" width="273" height="27" text="qty, "/>
+      <items x="0" y="82" width="273" height="18" text="Total"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="23" x="232" y="56" text="-" measuredWidth="25" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="24" x="197" y="56" text="+" measuredWidth="28" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VSlider" id="22" x="608" y="160" height="332" measuredWidth="17" measuredHeight="332"/>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="160" y="276" measuredWidth="417" measuredHeight="100">
+    <widgets xsi:type="model:Image" id="26" text="ordered item_image" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:VButtonBar" id="27" x="144" width="273" height="100" text="Product name&#xA;product price&#xA;qty, &#xA;Total&#xA;" measuredWidth="273" measuredHeight="100" selection="0">
+      <font/>
+      <items x="0" y="0" width="273" height="28" text="Product name"/>
+      <items x="0" y="28" width="273" height="27" text="product price"/>
+      <items x="0" y="55" width="273" height="27" text="qty, "/>
+      <items x="0" y="82" width="273" height="18" text="Total"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="28" x="232" y="56" text="-" measuredWidth="25" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="29" x="197" y="56" text="+" measuredWidth="28" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="160" y="408" measuredWidth="417" measuredHeight="100">
+    <widgets xsi:type="model:Image" id="31" text="ordered item_image" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:VButtonBar" id="32" x="144" width="273" height="100" text="Product name&#xA;product price&#xA;qty, &#xA;Total&#xA;" measuredWidth="273" measuredHeight="100" selection="0">
+      <font/>
+      <items x="0" y="0" width="273" height="28" text="Product name"/>
+      <items x="0" y="28" width="273" height="27" text="product price"/>
+      <items x="0" y="55" width="273" height="27" text="qty, "/>
+      <items x="0" y="82" width="273" height="18" text="Total"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="33" x="232" y="56" text="-" measuredWidth="25" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="34" x="197" y="56" text="+" measuredWidth="28" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:List" id="39" x="648" y="212" height="63" text="Product total&#xA;Shipping charges&#xA;(bg:green)| Grand Total" measuredWidth="102" measuredHeight="63">
+    <font/>
+    <items x="0" y="2" width="102" height="21" text="Product total"/>
+    <items x="0" y="23" width="102" height="21" text="Shipping charges"/>
+    <items x="0" y="44" width="102" height="21" text="(bg:green)| Grand Total"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="649" y="288" text="Proceed to pay" measuredWidth="99" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

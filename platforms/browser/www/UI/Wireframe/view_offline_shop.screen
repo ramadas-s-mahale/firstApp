@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="24" width="673" height="497" text="Browser&#xA;http://..." measuredWidth="673" measuredHeight="497">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" x="104" y="86" measuredWidth="625" measuredHeight="59">
+    <widgets xsi:type="model:LinkBar" id="3" x="144" y="10" text="Home,Shops,users,sellers" measuredWidth="191" measuredHeight="23">
+      <font/>
+      <items x="0" y="0" width="36" height="23" text="Home"/>
+      <items x="54" y="0" width="35" height="23" text="Shops"/>
+      <items x="107" y="0" width="30" height="23" text="users"/>
+      <items x="155" y="0" width="35" height="23" text="sellers"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="4" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="5" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="6" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:SearchField" id="7" x="376" y="10" text="Search for user or seller" measuredWidth="153" measuredHeight="24">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Table" id="8" x="244" y="272" width="345" height="114" text="Item name, qty,isle_no,price&#xD;&#xA;&#xD;&#xA;prod1, 20, 2, 10&#xD;&#xA;prod2, 5, 1, 20" measuredWidth="345" measuredHeight="114" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="9" x="322" y="224" text="prev, 1 , 2, next, " measuredWidth="148" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="24" height="23" text="prev"/>
+    <items x="44" y="0" width="10" height="23" text="1 "/>
+    <items x="74" y="0" width="7" height="23" text="2"/>
+    <items x="101" y="0" width="23" height="23" text="next"/>
+    <items x="144" y="0" width="1" height="23"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="104" y="173" text="Store name and location" measuredWidth="219" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="96" y="48" width="801" height="465" text="Browser&#xA;http://..." measuredWidth="801" measuredHeight="465">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="184" y="110" measuredWidth="625" measuredHeight="59">
+    <widgets xsi:type="model:Icon" id="12" x="449" measuredWidth="32" measuredHeight="32" icon="currency-dollar (large)"/>
+    <widgets xsi:type="model:WidgetGroup" id="13" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:LinkBar" id="14" x="144" y="10" text="Profile,Shop" measuredWidth="86" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="37" height="23" text="Profile"/>
+        <items x="55" y="0" width="30" height="23" text="Shop"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="15" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="16" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="17" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+      <widgets xsi:type="model:SearchField" id="18" x="280" y="10" text="Search for product" measuredWidth="129" measuredHeight="24">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="19" x="512" measuredWidth="32" measuredHeight="32" icon="shopping-cart (large)"/>
+      <widgets xsi:type="model:Label" id="20" x="449" y="27" text="wallet" measuredWidth="37" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="21" x="509" y="33" text="cart" measuredWidth="26" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="22" x="136" y="168" width="713" height="335" measuredWidth="713" measuredHeight="335"/>
+  <widgets xsi:type="model:Image" id="23" x="176" y="208" text="product1_image" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:VSlider" id="28" x="836" y="168" height="335" measuredWidth="17" measuredHeight="335"/>
+  <widgets xsi:type="model:Image" id="29" x="344" y="208" text="product2_image" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="30" x="528" y="208" text="product3_image" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="31" x="176" y="360" text="product5_image" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:Image" id="32" x="694" y="208" text="product4_image" measuredWidth="100" measuredHeight="100"/>
+  <widgets xsi:type="model:TextArea" id="33" x="392" y="392" width="417" height="89" text="And so on.......&#xD;&#xA;&#xD;&#xA;On scrolling the page more products should be loaded&#xD;&#xA;&#xD;&#xA;Similar page for online store but no camera icon present." measuredWidth="417" measuredHeight="89">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="34" x="187" y="320" text="Prod_name" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="39" x="708" y="324" text="Prod_name" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="40" x="542" y="324" text="Prod_name" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="41" x="358" y="320" text="Prod_name" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="42" x="187" y="470" text="Prod_name" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="43" x="146" y="178" text="Product category dropdown" measuredWidth="176" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="44" x="359" y="178" text="product filter dropdown(by price and by name)" measuredWidth="276" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="45" x="805" y="174" measuredWidth="32" measuredHeight="32" icon="snapshot (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

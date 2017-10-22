@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="172" y="56" width="663" height="457" text="Browser&#xA;http://..." measuredWidth="663" measuredHeight="457">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="227" y="192" measuredWidth="554" measuredHeight="305">
+    <widgets xsi:type="model:Panel" id="5" width="554" height="305" measuredWidth="554" measuredHeight="305"/>
+    <widgets xsi:type="model:Image" id="13" x="129" y="56" text="Suggestion1" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:Image" id="14" x="337" y="56" text="Suggestion2" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:Image" id="15" x="129" y="184" text="suggestion3" measuredWidth="100" measuredHeight="100"/>
+    <widgets xsi:type="model:TextArea" id="17" x="169" y="10" text="Suggestions based on recommender system" measuredWidth="242" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="19" x="313" y="233" width="161" text=".................................................." measuredWidth="161" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="192" y="118" measuredWidth="625" measuredHeight="59">
+    <widgets xsi:type="model:Icon" id="22" x="449" measuredWidth="32" measuredHeight="32" icon="currency-dollar (large)"/>
+    <widgets xsi:type="model:WidgetGroup" id="26" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:LinkBar" id="3" x="144" y="10" text="Profile,Shop" measuredWidth="86" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="37" height="23" text="Profile"/>
+        <items x="55" y="0" width="30" height="23" text="Shop"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="4" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="9" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="11" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+      <widgets xsi:type="model:SearchField" id="12" x="280" y="10" text="Search for product" measuredWidth="129" measuredHeight="24">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="21" x="512" measuredWidth="32" measuredHeight="32" icon="shopping-cart (large)"/>
+      <widgets xsi:type="model:Label" id="23" x="449" y="27" text="wallet" measuredWidth="37" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="24" x="509" y="33" text="cart" measuredWidth="26" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

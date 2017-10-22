@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="8" x="96" y="32" measuredWidth="673" measuredHeight="497">
+    <widgets xsi:type="model:Browser" id="1" width="673" height="497" text="Browser&#xA;http://..." measuredWidth="673" measuredHeight="497">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="2" x="24" y="72" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:LinkBar" id="3" x="144" y="10" text="Home,Shops,users,sellers" measuredWidth="191" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="36" height="23" text="Home"/>
+        <items x="54" y="0" width="35" height="23" text="Shops"/>
+        <items x="107" y="0" width="30" height="23" text="users"/>
+        <items x="155" y="0" width="35" height="23" text="sellers"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="4" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="5" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="6" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+      <widgets xsi:type="model:SearchField" id="7" x="376" y="10" text="Search for user or seller" measuredWidth="153" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="11" x="112" y="168" width="641" height="337" measuredWidth="641" measuredHeight="337"/>
+  <widgets xsi:type="model:Table" id="12" x="284" y="240" width="297" height="105" text="User,Mail_id,Ph_no,                               &#xD;&#xA;user1,mail1,123456&#xD;&#xA;user2,mail2,654321" measuredWidth="297" measuredHeight="105" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="13" x="342" y="192" text="prev, 1 ,2 ,3 , next," measuredWidth="181" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="24" height="23" text="prev"/>
+    <items x="44" y="0" width="10" height="23" text="1 "/>
+    <items x="74" y="0" width="10" height="23" text="2 "/>
+    <items x="104" y="0" width="10" height="23" text="3 "/>
+    <items x="134" y="0" width="23" height="23" text="next"/>
+    <items x="177" y="0" width="1" height="23"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="456" y="268" measuredWidth="118" measuredHeight="25">
+    <widgets xsi:type="model:Button" id="14" text="update" measuredWidth="57" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="15" x="66" text="delete" measuredWidth="52" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="456" y="304" measuredWidth="118" measuredHeight="25">
+    <widgets xsi:type="model:Button" id="18" text="update" measuredWidth="57" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="19" x="66" text="delete" measuredWidth="52" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="336" y="400" text="(Similar page for managing sellers)" measuredWidth="194" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="167"/>
+    <guides position="23"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

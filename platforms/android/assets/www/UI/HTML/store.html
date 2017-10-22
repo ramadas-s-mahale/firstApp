@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Store</title>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="../css/store.css">
+
+    <script>
+        $(document).ready(function () {
+            $('#my-nav-bar').load('./navbar.html');
+
+        });
+
+        function filter(e, t) {
+            document.getElementById(t).innerHTML = e.target.innerHTML;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="my-nav-bar"></div>
+
+    <div class="product-container">
+
+        <div class="dropdown">
+            <button class="dropbtn btn-md" id="category-btn">Product categories</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="filter(event,'category-btn')">Shirts</a>
+                <a href="#" onclick="filter(event,'category-btn')">Trousers</a>
+                <a href="#" onclick="filter(event,'category-btn')">Footwear</a>
+            </div>
+        </div>
+
+        <div class="dropdown filter">
+            <button class="dropbtn" id="filter-btn">Sort by..</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="filter(event,'filter-btn')">Name</a>
+                <a href="#" onclick="filter(event,'filter-btn')">Price - low to high</a>
+                <a href="#" onclick="filter(event,'filter-btn')">Price - high to low</a>
+            </div>
+        </div>
+
+        <span class="glyphicon glyphicon-camera glyphicon-lg"></span>
+        <br><br>
+
+        <div class="row prod ">
+            <div class="col-sm-5 col-md-3 col-lg-3 product">
+                <center><img src='assets/1.jpg'class='prod-img'>
+                    <p>Shirt puma</p>
+                <p><b>$10.00</b></p>
+                </center>
+            </div>
+            <div class="col-sm-5 col-md-3 col-lg-3 product">
+                <center>
+                    <img src='assets/2.jpg'class='prod-img'>
+                    <p>Shirt puma</p>
+                    <p><b>$10.00</b></p>
+                </center>
+            </div>
+            <div class="col-sm-5 col-md-3 col-lg-3 product">
+                <center><img src='assets/3.jpg'class='prod-img'>
+                <p>Shirt puma</p>
+                <p><b>$10.00</b></p>
+                </center>
+            </div>
+            <div class="col-sm-5 col-md-3 col-lg-3 product">
+                    
+                <center><img src='assets/4.jpg'class='prod-img'>
+                    <p>Shirt puma</p>
+                <p><b>$10.00</b></p>
+                </center>
+            </div>
+            <div class="col-sm-5 col-md-3 col-lg-3 product">
+            
+                <center><img src='assets/5.jpg'class='prod-img'>
+                    <p>Shirt nike</p>
+                <p><b>$10.00</b></p>
+                </center>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="96" y="32" width="673" height="497" text="Browser&#xA;http://..." measuredWidth="673" measuredHeight="497">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" x="120" y="94" measuredWidth="625" measuredHeight="59">
+    <widgets xsi:type="model:Icon" id="3" x="449" measuredWidth="32" measuredHeight="32" icon="currency-dollar (large)"/>
+    <widgets xsi:type="model:WidgetGroup" id="4" measuredWidth="625" measuredHeight="59">
+      <widgets xsi:type="model:LinkBar" id="5" x="144" y="10" text="Profile,Shop" measuredWidth="86" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="37" height="23" text="Profile"/>
+        <items x="55" y="0" width="30" height="23" text="Shop"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="6" y="1" text="logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:TextField" id="7" x="582" y="33" text="Name" measuredWidth="43" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="8" x="588" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+      <widgets xsi:type="model:SearchField" id="9" x="280" y="10" text="Search for product" measuredWidth="129" measuredHeight="24">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="10" x="512" measuredWidth="32" measuredHeight="32" icon="shopping-cart (large)"/>
+      <widgets xsi:type="model:Label" id="11" x="449" y="27" text="wallet" measuredWidth="37" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="12" x="509" y="33" text="cart" measuredWidth="26" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="136" y="168" width="609" height="337" measuredWidth="609" measuredHeight="337"/>
+  <widgets xsi:type="model:ButtonBar" id="15" x="351" y="192" width="194" text="Name:, Username" measuredWidth="194" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="82" height="27" text="Name:"/>
+    <items x="82" y="0" width="112" height="27" text="Username"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="16" x="351" y="240" width="194" text="Wallet_balance:, balance amt" measuredWidth="194" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="104" height="27" text="Wallet_balance:"/>
+    <items x="104" y="0" width="90" height="27" text="balance amt"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="17" x="351" y="288" width="194" text="reg_mail:, email_id" measuredWidth="194" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="98" height="27" text="reg_mail:"/>
+    <items x="98" y="0" width="96" height="27" text="email_id"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="570" y="193" text="change" measuredWidth="59" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="560" y="241" text="add money" measuredWidth="80" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="21" x="367" y="368" text="View recently bought items" measuredWidth="147" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="391" y="336" text="Change Password" measuredWidth="114" measuredHeight="25" background="#00f">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

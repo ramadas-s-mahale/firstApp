@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="78" y="54" width="603" height="467" text="Browser&#xA;http://..." measuredWidth="603" measuredHeight="467">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="5" x="432" y="208" width="225" measuredWidth="225" measuredHeight="201">
+    <widgets xsi:type="model:TabbedPane" id="2" width="225" height="201" text="Login,SignUp" measuredWidth="225" measuredHeight="201" selection="0">
+      <items x="10" y="0" width="51" height="27" text="Login"/>
+      <items x="61" y="0" width="59" height="27" text="SignUp"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="3" x="57" y="89" width="107" text="Username" measuredWidth="107" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="4" x="58" y="155" width="102" text="Password" measuredWidth="102" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="112" y="184" measuredWidth="297" measuredHeight="296">
+    <widgets xsi:type="model:Panel" id="6" width="297" height="296" measuredWidth="297" measuredHeight="296"/>
+    <widgets xsi:type="model:Label" id="7" x="52" y="127" text="SITE INFO" measuredWidth="193" measuredHeight="67">
+      <font size="43px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="8" x="280" y="128" text="Home,Blog,Forum,About" measuredWidth="192" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="36" height="23" text="Home"/>
+    <items x="54" y="0" width="27" height="23" text="Blog"/>
+    <items x="99" y="0" width="38" height="23" text="Forum"/>
+    <items x="155" y="0" width="36" height="23" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="120" y="111" text="Logo" measuredWidth="32" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
